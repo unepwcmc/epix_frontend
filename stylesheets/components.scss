@@ -47,3 +47,15 @@
   background-repeat: repeat-x;
   color: white;
 }
+
+.green-link {
+  cursor: pointer;
+  color: $main-green;
+  text-decoration: none;
+}
+
+.green-link-underlined {
+  cursor: pointer;
+  color: $main-green;
+  text-decoration: underline;
+}
