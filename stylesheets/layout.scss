@@ -117,8 +117,13 @@ footer {
 
 .left { float: left; }
 .right { float: right; }
+
+// FONT AND COLORS
+
 .bold { font-family: 'SourceSansPro-Bold', 'SourceSerifPro-Bold' }
 .italic { font-style: italic; }
+.blue { color: $main-blue; }
+.green { color: $main-green; }
 
 li.login > a:focus {
   background: none;
