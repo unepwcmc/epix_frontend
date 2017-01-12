@@ -10,7 +10,10 @@ header.mobile-header {
     margin-top: 10px;
     border: 1px solid $light-grey;
   }
-  img { width: 150px; }
+  img {
+    padding: 10px;
+    width: 150px;
+  }
   @media screen and (max-width: $break_desktop) {
     display: block;
   }
@@ -56,7 +59,10 @@ footer.mobile-footer {
     padding-left: 15px;
     margin-top: 5px;
     margin-bottom: 5px;
-    img { width: 150px; }
+    img {
+      padding: 10px;
+      width: 150px;
+    }
   }
   .signature-row {
     margin: 15px;
